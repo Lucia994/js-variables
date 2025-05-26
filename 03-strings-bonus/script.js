@@ -16,8 +16,11 @@ console.log(citySubstring); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
-const cityReplaced = '';
+const cityReplaced = city.replace('York', 'Delhi');
 console.log(cityReplaced); // Output:  "New Delhi"
+
+/*let text = "Visit Microsoft!";
+let result = text.replace("Microsoft", "W3Schools");*/
 
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
